@@ -1,10 +1,10 @@
 const recetas = [
   {
-    "id": "tomaja",
-    "nombre": "Tomaja"
+    "id": "gargurt",
+    "nombre": "Gargurt"
   },
   {
-    "id": "spaghetti_carbonara",
-    "nombre": "Spaghetti carbonara"
+    "id": "tomoja",
+    "nombre": "Tomoja"
   }
 ];

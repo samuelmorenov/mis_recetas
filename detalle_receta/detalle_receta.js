@@ -27,9 +27,24 @@ if (!id) {
                     ${receta.ingredientes.map(ing => `<li>${ing.nombre} - ${ing.cantidad}</li>`).join('')}
                 </ul>
                 <h3>Preparación:</h3>
-                <ol>
-                    ${receta.preparacion.map(paso => `<li>${paso}</li>`).join('')}
-                </ol>
+                ${typeof receta.preparacion[0] === 'object' ? `
+                    ${receta.preparacion.map(seccion => `
+                        <h4>${seccion.seccion}</h4>
+                        <ol>
+                            ${seccion.pasos.map(paso => `<li>${paso}</li>`).join('')}
+                        </ol>
+                    `).join('')}
+                ` : `
+                    <ol>
+                        ${receta.preparacion.map(paso => `<li>${paso}</li>`).join('')}
+                    </ol>
+                `}
+                ${receta.notas ? `
+                <h3>Notas:</h3>
+                <ul>
+                    ${receta.notas.map(nota => `<li>${nota}</li>`).join('')}
+                </ul>
+                ` : ''}
             `;
         } else {
             document.getElementById('detalle-receta').innerHTML = '<p>Receta no encontrada.</p>';
