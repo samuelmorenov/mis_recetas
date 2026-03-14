@@ -55,7 +55,6 @@ const receta = {
   "notas": [
     "Esta receta está calculada para dos raciones generosas.",
     "Las cucharaditas de postre son aproximadamente 5 ml.",
-    "Los dátiles aportan el dulce necesario para equilibrar la acidez del vinagre, se podrían sustituir por un poco de azúcar moreno, pero el sabor no sería exactamente el mismo. Ademas, se podrían omitir, pero la salsa perdería parte de su personalidad.",
-    "La salsa queda bastante líquida, tal como te gusta, para que los garbanzos queden casi 'sumergidos'."
+    "Los dátiles aportan el dulce necesario para equilibrar la acidez del vinagre, se podrían sustituir por un poco de azúcar moreno, pero el sabor no sería exactamente el mismo. Ademas, se podrían omitir, pero la salsa perdería parte de su personalidad."
   ]
 }
