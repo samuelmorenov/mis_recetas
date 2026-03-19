@@ -3,7 +3,7 @@ const receta = {
   "nombre": "Tomoja",
   "imagen": null,
   "ingredientes": [
-    { "nombre": "Soja texturizada fina", "cantidad": "medio vaso" },
+    { "nombre": "Soja texturizada fina", "cantidad": "medio vaso (unos 50g)" },
     { "nombre": "Tomate natural", "cantidad": "1 unidad" },
     { "nombre": "Tomate triturado", "cantidad": "3 cucharones" },
     { "nombre": "Tahini", "cantidad": "1/2 cucharada de las de postre" },

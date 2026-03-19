@@ -10,5 +10,13 @@ const recetas = [
   {
     "id": "tomoja",
     "nombre": "Tomoja"
+  },
+  {
+    "id": "tofu_general_tso",
+    "nombre": "Tofu General Tso",
+  },
+  {
+    "id": "galletas",
+    "nombre": "Galletas integrales"
   }
 ];
